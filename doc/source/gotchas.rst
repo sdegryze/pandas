@@ -245,7 +245,7 @@ Non-monotonic indexes require exact matches
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Endpoints are inclusive
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~ 
 
 Compared with standard Python sequence slicing in which the slice endpoint is
 not inclusive, label-based slicing in pandas **is inclusive**. The primary
