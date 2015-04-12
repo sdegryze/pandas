@@ -238,14 +238,14 @@ This deliberate decision was made to prevent ambiguities and subtle bugs (many
 users reported finding bugs when the API change was made to stop "falling back"
 on position-based indexing).
 
-Label-based slicing conventions
+Label-based slicing conventions 
 -------------------------------
 
 Non-monotonic indexes require exact matches
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Endpoints are inclusive
-~~~~~~~~~~~~~~~~~~~~~~~ 
+~~~~~~~~~~~~~~~~~~~~~~~
 
 Compared with standard Python sequence slicing in which the slice endpoint is
 not inclusive, label-based slicing in pandas **is inclusive**. The primary
